@@ -1,0 +1,9 @@
+#!/bin/bash
+max_loops=9
+count=0
+
+while [ $count -le $max_loops ]
+do
+    echo -e "DevOps"
+    let "count=count+1"
+done
